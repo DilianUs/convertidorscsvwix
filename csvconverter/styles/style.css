@@ -1,0 +1,27 @@
+.card-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-marcas-container,.button-productosmarcas-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#loadingSpinner img,#successMessage img,#loadingSpinner2 img,#successMessage2 img{
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#successMessage,#successMessage2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 15px;
+    
+}
+

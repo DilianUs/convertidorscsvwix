@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>SyscomProduct</h1>
+
+<div>
+  
+    <br />
+    
+    <br />
+    <section class="main_conductor">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="mb-0 titulo" id="t-form">Marcas De Syscom</h3>
+                <div class="button-marcas-container">
+                    <button type="button" id="fetchButton" onclick="getSyscomBrands()">Obtener Marcas</button>
+                    <div id="loadingSpinner" style="display: none">
+                        <img src="resources/gifs/loading-25.gif" alt="Spinner de carga" />
+                    </div>
+                    <div id="successMessage" style="display: none">
+                        <span>Marcas obtenidas exitosamente</span>
+                        <img src="resources/palomita.png" alt="Palomita verde" />
+                       
+                    </div>
+                </div>
+               
+            </div>
+            <div class="card-header">
+                <h3 class="mb-0 titulo" id="t-form">Productos por marca</h3>
+                <div class="button-productosmarcas-container">
+                    <button type="button" id="fetchButton2" onclick="getSyscomBrandsProducts()" disabled>Obtener Productos</button>
+                    <div id="loadingSpinner2" style="display: none">
+                        <img src="resources/gifs/loading-25.gif" alt="Spinner de carga" />
+                    </div>
+                    <div id="successMessage2" style="display: none">
+                        <span>Marcas obtenidas exitosamente</span>
+                        <img src="resources/palomita.png" alt="Palomita verde" />
+                       
+                    </div>
+                </div>
+               
+            </div>
+
+      
+        </div>
+     
+        <br />
+    </section>
+ 
+</div>
+
+<!--Scripts-->
+<script src="main.js"></script>
+</body>
+</html>
